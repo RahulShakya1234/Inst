@@ -1,0 +1,777 @@
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.GetInt(Object obj) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 96
+   at ERP.SalePurchase.AccountGroupAdd.btnSave_Click(Object sender, EventArgs e) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Masters\AccountGroupAdd.cs:line 87
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.GetInt(Object obj) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 96
+   at ERP.SalePurchase.AccountGroupAdd.btnSave_Click(Object sender, EventArgs e) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Masters\AccountGroupAdd.cs:line 87
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+------------------------------------------------------------
+---          .NET Thrown Exception Class Details         ---
+------------------------------------------------------------
+
+
+
+Source: ERP
+
+
+
+Message: Object reference not set to an instance of an object.
+
+
+
+Stack trace:    at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+
+
+
+Inner Exception: 
+
+
+
+Base Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ERP.Global.BaseClass.FillCombo(BCombo combo, DataTable table, String defaultValue1) in d:\Data\Projects-New\ERP-Code\SourceCode\ERP\Global\BaseClass.cs:line 382
+

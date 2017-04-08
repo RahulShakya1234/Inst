@@ -1,0 +1,1897 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35206153-04F0-4708-A78F-C02A761C78D5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ERP</RootNamespace>
+    <AssemblyName>ERP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ERP.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DgvFilterPopup">
+      <HintPath>..\Libraries\DgvFilterPopup.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VistaMenuControl, Version=1.0.3283.36234, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\VistaMenuControl.dll</HintPath>
+    </Reference>
+    <Reference Include="WinControlLibrary">
+      <HintPath>..\Libraries\WinControlLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountVoucher\AccountingReport\BalanceSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\BalanceSheet.Designer.cs">
+      <DependentUpon>BalanceSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\BitWiseoutstanding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\BitWiseoutstanding.Designer.cs">
+      <DependentUpon>BitWiseoutstanding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\CashBankBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\CashBankBook.Designer.cs">
+      <DependentUpon>CashBankBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\CostcEntreLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\CostcEntreLedger.Designer.cs">
+      <DependentUpon>CostcEntreLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\DailyBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\DailyBalance.Designer.cs">
+      <DependentUpon>DailyBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\DayBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\DayBook.Designer.cs">
+      <DependentUpon>DayBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\PrintLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\PrintLedger.Designer.cs">
+      <DependentUpon>PrintLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\ProfitLossAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\ProfitLossAccount.Designer.cs">
+      <DependentUpon>ProfitLossAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\ReportCriteria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\ReportCriteria.Designer.cs">
+      <DependentUpon>ReportCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\TradingAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\TradingAccount.Designer.cs">
+      <DependentUpon>TradingAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\TrialBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\TrialBalance.Designer.cs">
+      <DependentUpon>TrialBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\ViewLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\ViewLedger.Designer.cs">
+      <DependentUpon>ViewLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\VoucherAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\VoucherAnalysis.Designer.cs">
+      <DependentUpon>VoucherAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\VoucherPrinting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\AccountingReport\VoucherPrinting.Designer.cs">
+      <DependentUpon>VoucherPrinting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\BankPaymentAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\BankPaymentAdd.Designer.cs">
+      <DependentUpon>BankPaymentAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\BankPaymentView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\BankPaymentView.Designer.cs">
+      <DependentUpon>BankPaymentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\BankReceiptAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\BankReceiptAdd.Designer.cs">
+      <DependentUpon>BankReceiptAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\BankReceiptView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\BankReceiptView.Designer.cs">
+      <DependentUpon>BankReceiptView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\CashPaymentAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\CashPaymentAdd.Designer.cs">
+      <DependentUpon>CashPaymentAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\CashPaymentView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\CashPaymentView.Designer.cs">
+      <DependentUpon>CashPaymentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\CashRceiptVoucherAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\CashRceiptVoucherAdd.Designer.cs">
+      <DependentUpon>CashRceiptVoucherAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\CashReceiptVoucherView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\CashReceiptVoucherView.Designer.cs">
+      <DependentUpon>CashReceiptVoucherView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\ContraVoucherAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\ContraVoucherAdd.Designer.cs">
+      <DependentUpon>ContraVoucherAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\ContraVoucherView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\ContraVoucherView.Designer.cs">
+      <DependentUpon>ContraVoucherView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\Display\LedgerDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\Display\LedgerDisplay.Designer.cs">
+      <DependentUpon>LedgerDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\Display\TrialBalanceDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\Display\TrialBalanceDetail.Designer.cs">
+      <DependentUpon>TrialBalanceDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\Display\TrialBalanceDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\Display\TrialBalanceDisplay.Designer.cs">
+      <DependentUpon>TrialBalanceDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\Display\TrialSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\Display\TrialSummary.Designer.cs">
+      <DependentUpon>TrialSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\JournalAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\JournalAdd.Designer.cs">
+      <DependentUpon>JournalAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountVoucher\JournalView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountVoucher\JournalView.Designer.cs">
+      <DependentUpon>JournalView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExitForm.designer.cs">
+      <DependentUpon>ExitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global\BaseClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Global\Enums.cs" />
+    <Compile Include="Global\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\AccountGroupAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\AccountGroupAdd.designer.cs">
+      <DependentUpon>AccountGroupAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\AccountGroupSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\AccountGroupSearch.Designer.cs">
+      <DependentUpon>AccountGroupSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\AccountGroupView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\AccountGroupView.designer.cs">
+      <DependentUpon>AccountGroupView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\AccountView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\AccountView.designer.cs">
+      <DependentUpon>AccountView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\AccountAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\AccountAdd.designer.cs">
+      <DependentUpon>AccountAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\ContraVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\ContraVoucher.Designer.cs">
+      <DependentUpon>ContraVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\ContraVoucherView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\ContraVoucherView.Designer.cs">
+      <DependentUpon>ContraVoucherView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\ContraVoucherAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\ContraVoucherAdd.Designer.cs">
+      <DependentUpon>ContraVoucherAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Department.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\Department.Designer.cs">
+      <DependentUpon>Department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\DeptView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\DeptView.Designer.cs">
+      <DependentUpon>DeptView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Designation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\Designation.Designer.cs">
+      <DependentUpon>Designation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\DesigView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\DesigView.Designer.cs">
+      <DependentUpon>DesigView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\IssueMasterView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\IssueMasterView.Designer.cs">
+      <DependentUpon>IssueMasterView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\IssueMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\IssueMaster.Designer.cs">
+      <DependentUpon>IssueMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\ItemGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\ItemGroup.Designer.cs">
+      <DependentUpon>ItemGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Location.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\Location.Designer.cs">
+      <DependentUpon>Location.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\LocationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\LocationView.Designer.cs">
+      <DependentUpon>LocationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\PartyWiseItemAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\PartyWiseItemAdd.Designer.cs">
+      <DependentUpon>PartyWiseItemAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\PartyWiseItemRateList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\PartyWiseItemRateList.Designer.cs">
+      <DependentUpon>PartyWiseItemRateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\PartyWiseItemRateView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\PartyWiseItemRateView.Designer.cs">
+      <DependentUpon>PartyWiseItemRateView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\PurchaseTypeSetupView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\PurchaseTypeSetupView.Designer.cs">
+      <DependentUpon>PurchaseTypeSetupView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SaleOrderReceivingEntryAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SaleOrderReceivingEntryAdd.Designer.cs">
+      <DependentUpon>SaleOrderReceivingEntryAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SaleOrderReceivingEntryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SaleOrderReceivingEntryView.designer.cs">
+      <DependentUpon>SaleOrderReceivingEntryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SalePurcahseRegisterView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SalePurcahseRegisterView.Designer.cs">
+      <DependentUpon>SalePurcahseRegisterView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SalePurchaseRegisterSetUpAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SalePurchaseRegisterSetUpAdd.Designer.cs">
+      <DependentUpon>SalePurchaseRegisterSetUpAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SaleTypeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SaleTypeView.Designer.cs">
+      <DependentUpon>SaleTypeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SoftwareRoleAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SoftwareRoleAdd.Designer.cs">
+      <DependentUpon>SoftwareRoleAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SoftwareRoleView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SoftwareRoleView.Designer.cs">
+      <DependentUpon>SoftwareRoleView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\STFormSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\STFormSetup.designer.cs">
+      <DependentUpon>STFormSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\STFormView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\STFormView.designer.cs">
+      <DependentUpon>STFormView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FormNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FormNo.designer.cs">
+      <DependentUpon>FormNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\ItemGroupAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\ItemGroupAdd.Designer.cs">
+      <DependentUpon>ItemGroupAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\ItemGroupView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\ItemGroupView.Designer.cs">
+      <DependentUpon>ItemGroupView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\NarrationAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\NarrationAdd.Designer.cs">
+      <DependentUpon>NarrationAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\NarrationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\NarrationView.Designer.cs">
+      <DependentUpon>NarrationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SaleTypeSetupAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SaleTypeSetupAdd.Designer.cs">
+      <DependentUpon>SaleTypeSetupAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SaleTypeSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SaleTypeSetup.Designer.cs">
+      <DependentUpon>SaleTypeSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\CostCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\CostCenter.designer.cs">
+      <DependentUpon>CostCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\CostCenterView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\CostCenterView.designer.cs">
+      <DependentUpon>CostCenterView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\DailyScheduleEntryAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\DailyScheduleEntryAdd.Designer.cs">
+      <DependentUpon>DailyScheduleEntryAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\DailyScheduleEntryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\DailyScheduleEntryView.Designer.cs">
+      <DependentUpon>DailyScheduleEntryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\ItemRateSetupAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\ItemRateSetupAdd.designer.cs">
+      <DependentUpon>ItemRateSetupAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\ItemRateSetupView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\ItemRateSetupView.designer.cs">
+      <DependentUpon>ItemRateSetupView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\ItemsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\ItemsView.designer.cs">
+      <DependentUpon>ItemsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\ItemsAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\ItemsAdd.designer.cs">
+      <DependentUpon>ItemsAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\PendingSaleOrderReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\PendingSaleOrderReport.designer.cs">
+      <DependentUpon>PendingSaleOrderReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\PriceRateView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\PriceRateView.Designer.cs">
+      <DependentUpon>PriceRateView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\PriceRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\PriceRate.Designer.cs">
+      <DependentUpon>PriceRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\PurchaseTypeSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\PurchaseTypeSetup.Designer.cs">
+      <DependentUpon>PurchaseTypeSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\PurchaseTypeSetupAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\PurchaseTypeSetupAdd.Designer.cs">
+      <DependentUpon>PurchaseTypeSetupAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SaleOrderListing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SaleOrderListing.designer.cs">
+      <DependentUpon>SaleOrderListing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SaleOrderPendingReport%28Item wise%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SaleOrderPendingReport%28Item wise%29.designer.cs">
+      <DependentUpon>SaleOrderPendingReport%28Item wise%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SaleOrderPendingReport%28Party wise%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SaleOrderPendingReport%28Party wise%29.designer.cs">
+      <DependentUpon>SaleOrderPendingReport%28Party wise%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SaleOrderSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\SaleOrderSetup.designer.cs">
+      <DependentUpon>SaleOrderSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\StateView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\StateView.Designer.cs">
+      <DependentUpon>StateView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\StateAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\StateAdd.Designer.cs">
+      <DependentUpon>StateAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Study.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\Study.designer.cs">
+      <DependentUpon>Study.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\TariffAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\TariffAdd.Designer.cs">
+      <DependentUpon>TariffAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\TariffView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\TariffView.Designer.cs">
+      <DependentUpon>TariffView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\UMOAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\UMOAdd.Designer.cs">
+      <DependentUpon>UMOAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\UMOView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\UMOView.Designer.cs">
+      <DependentUpon>UMOView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\UserDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\UserDetails.Designer.cs">
+      <DependentUpon>UserDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\UserView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\UserView.Designer.cs">
+      <DependentUpon>UserView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\VoucherAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\VoucherAdd.Designer.cs">
+      <DependentUpon>VoucherAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\VoucherSeriesSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\VoucherSeriesSetup.Designer.cs">
+      <DependentUpon>VoucherSeriesSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\VoucherSeriesView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\VoucherSeriesView.Designer.cs">
+      <DependentUpon>VoucherSeriesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\VoucherSeriesSetupAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\VoucherSeriesSetupAdd.Designer.cs">
+      <DependentUpon>VoucherSeriesSetupAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\VoucherSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\VoucherSetup.designer.cs">
+      <DependentUpon>VoucherSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\VoucherView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\VoucherView.Designer.cs">
+      <DependentUpon>VoucherView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParentApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParentApp.Designer.cs">
+      <DependentUpon>MDIParentApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalePurchase\SalePurchase\BillWiseSaleReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\BillWiseSaleReport.Designer.cs">
+      <DependentUpon>BillWiseSaleReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\DirectEntryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\DirectEntryView.Designer.cs">
+      <DependentUpon>DirectEntryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\DirectEntryAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\DirectEntryAdd.Designer.cs">
+      <DependentUpon>DirectEntryAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\GRN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\GRN.Designer.cs">
+      <DependentUpon>GRN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\GRNView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\GRNView.Designer.cs">
+      <DependentUpon>GRNView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\ItemMovementReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\ItemMovementReport.Designer.cs">
+      <DependentUpon>ItemMovementReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\ItemWiseExciseDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\ItemWiseExciseDetail.Designer.cs">
+      <DependentUpon>ItemWiseExciseDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\ItemWisePartWisePurchaseReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\ItemWisePartWisePurchaseReg.Designer.cs">
+      <DependentUpon>ItemWisePartWisePurchaseReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\ItemWisePartyWiseSaleRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\ItemWisePartyWiseSaleRegister.Designer.cs">
+      <DependentUpon>ItemWisePartyWiseSaleRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\MonthlyDispatchReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\MonthlyDispatchReport.Designer.cs">
+      <DependentUpon>MonthlyDispatchReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PackingDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PackingDetail.Designer.cs">
+      <DependentUpon>PackingDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PartyWiseItemWisePurcahseReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PartyWiseItemWisePurcahseReg.Designer.cs">
+      <DependentUpon>PartyWiseItemWisePurcahseReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PartyWiseItemWiseSaleRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PartyWiseItemWiseSaleRegister.Designer.cs">
+      <DependentUpon>PartyWiseItemWiseSaleRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PartyWiseItemWiseToolCostDiffReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PartyWiseItemWiseToolCostDiffReport.Designer.cs">
+      <DependentUpon>PartyWiseItemWiseToolCostDiffReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PartyWisePurchaseRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PartyWisePurchaseRegister.Designer.cs">
+      <DependentUpon>PartyWisePurchaseRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PartyWiseSaleNonExcise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PartyWiseSaleNonExcise.Designer.cs">
+      <DependentUpon>PartyWiseSaleNonExcise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PartyWiseSalePurchaseEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PartyWiseSalePurchaseEntry.Designer.cs">
+      <DependentUpon>PartyWiseSalePurchaseEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PurcahseBillAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PurcahseBillAdd.Designer.cs">
+      <DependentUpon>PurcahseBillAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PurcahseBillView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PurcahseBillView.Designer.cs">
+      <DependentUpon>PurcahseBillView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PurchaseRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PurchaseRegister.Designer.cs">
+      <DependentUpon>PurchaseRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PurchaseRegister2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PurchaseRegister2.Designer.cs">
+      <DependentUpon>PurchaseRegister2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PurchaseRegReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\PurchaseRegReturn.Designer.cs">
+      <DependentUpon>PurchaseRegReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleCategoryWise1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleCategoryWise1.Designer.cs">
+      <DependentUpon>SaleCategoryWise1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleInvoiceEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleInvoiceEntry.Designer.cs">
+      <DependentUpon>SaleInvoiceEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SalePurchaseView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SalePurchaseView.Designer.cs">
+      <DependentUpon>SalePurchaseView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleRegister%28New%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleRegister%28New%29.Designer.cs">
+      <DependentUpon>SaleRegister%28New%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleRegisterNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleRegisterNew.Designer.cs">
+      <DependentUpon>SaleRegisterNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleRegisterPartyWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleRegisterPartyWise.Designer.cs">
+      <DependentUpon>SaleRegisterPartyWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleRegisterSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleRegisterSummary.Designer.cs">
+      <DependentUpon>SaleRegisterSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleRegistry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleRegistry.Designer.cs">
+      <DependentUpon>SaleRegistry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleRegistryItemWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleRegistryItemWise.Designer.cs">
+      <DependentUpon>SaleRegistryItemWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleReportBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleReportBank.Designer.cs">
+      <DependentUpon>SaleReportBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleReturnRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SaleReturnRegister.Designer.cs">
+      <DependentUpon>SaleReturnRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SalerRegisterCategoryWisecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\SalerRegisterCategoryWisecs.Designer.cs">
+      <DependentUpon>SalerRegisterCategoryWisecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\tariffWiseReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\tariffWiseReport.Designer.cs">
+      <DependentUpon>tariffWiseReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\TDSReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\TDSReport.Designer.cs">
+      <DependentUpon>TDSReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\TotalSaleSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\SalePurchase\TotalSaleSummary.Designer.cs">
+      <DependentUpon>TotalSaleSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\BacklogReportWeeklycs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\BacklogReportWeeklycs.Designer.cs">
+      <DependentUpon>BacklogReportWeeklycs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\Consumption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\Consumption.Designer.cs">
+      <DependentUpon>Consumption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\DailRating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\DailRating.Designer.cs">
+      <DependentUpon>DailRating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\dailySchedulReportNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\dailySchedulReportNew.Designer.cs">
+      <DependentUpon>dailySchedulReportNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\DateWiseDispatchReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\DateWiseDispatchReport.Designer.cs">
+      <DependentUpon>DateWiseDispatchReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\DeliverySchduleReportDaily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\DeliverySchduleReportDaily.Designer.cs">
+      <DependentUpon>DeliverySchduleReportDaily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\DeliveryScheduleBackLogreport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\DeliveryScheduleBackLogreport.Designer.cs">
+      <DependentUpon>DeliveryScheduleBackLogreport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\DeliveryScheduleReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\DeliveryScheduleReport.Designer.cs">
+      <DependentUpon>DeliveryScheduleReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\DeliveryScheduleReportAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\DeliveryScheduleReportAll.Designer.cs">
+      <DependentUpon>DeliveryScheduleReportAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\MaterialRequirementReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\MaterialRequirementReport.Designer.cs">
+      <DependentUpon>MaterialRequirementReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\MonthlyRating1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\MonthlyRating1.Designer.cs">
+      <DependentUpon>MonthlyRating1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\MonthWiseDispRpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\MonthWiseDispRpt.Designer.cs">
+      <DependentUpon>MonthWiseDispRpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\MostTrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\MostTrade.Designer.cs">
+      <DependentUpon>MostTrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\Print.Designer.cs">
+      <DependentUpon>Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\RateFinance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\RateFinance.Designer.cs">
+      <DependentUpon>RateFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\ScheduleReport\Supplier.Designer.cs">
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\Form2A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\Form2A.Designer.cs">
+      <DependentUpon>Form2A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\FromDVAT16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\FromDVAT16.Designer.cs">
+      <DependentUpon>FromDVAT16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\ST38PrintInwordOutword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\ST38PrintInwordOutword.Designer.cs">
+      <DependentUpon>ST38PrintInwordOutword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\ST38PrintNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\ST38PrintNew.Designer.cs">
+      <DependentUpon>ST38PrintNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\STFormReportPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\STFormReportPurchase.Designer.cs">
+      <DependentUpon>STFormReportPurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\STFormReportSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\STFormReportSale.Designer.cs">
+      <DependentUpon>STFormReportSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\VAtReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\VAtReport.Designer.cs">
+      <DependentUpon>VAtReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\VATSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalePurchase\VAT_Report\VATSummary.Designer.cs">
+      <DependentUpon>VATSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\PurelifeErpClient\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\AccountReporting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\AccountReporting.Designer.cs">
+      <DependentUpon>AccountReporting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\BackUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\BackUp.Designer.cs">
+      <DependentUpon>BackUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\CaptionSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\CaptionSetting.Designer.cs">
+      <DependentUpon>CaptionSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\CompanyInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\CompanyInfo.Designer.cs">
+      <DependentUpon>CompanyInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\CreateNextFinancialYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\CreateNextFinancialYear.Designer.cs">
+      <DependentUpon>CreateNextFinancialYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\DataChecking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\DataChecking.Designer.cs">
+      <DependentUpon>DataChecking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ExelDateToTelly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\ExelDateToTelly.Designer.cs">
+      <DependentUpon>ExelDateToTelly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ImportDateFormExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\ImportDateFormExcel.Designer.cs">
+      <DependentUpon>ImportDateFormExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ImportOpeningBalanceFronPreviousYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\ImportOpeningBalanceFronPreviousYear.Designer.cs">
+      <DependentUpon>ImportOpeningBalanceFronPreviousYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\MergedAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\MergedAccount.Designer.cs">
+      <DependentUpon>MergedAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\MergeItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\MergeItem.Designer.cs">
+      <DependentUpon>MergeItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\PrintSetUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\PrintSetUp.Designer.cs">
+      <DependentUpon>PrintSetUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ProblemSolution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\ProblemSolution.Designer.cs">
+      <DependentUpon>ProblemSolution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\SystemConfigurationAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\SystemConfigurationAccount.Designer.cs">
+      <DependentUpon>SystemConfigurationAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\UpdateOutStanding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\UpdateOutStanding.Designer.cs">
+      <DependentUpon>UpdateOutStanding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\VoucherMaxItemEntrySetg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\VoucherMaxItemEntrySetg.Designer.cs">
+      <DependentUpon>VoucherMaxItemEntrySetg.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\BalanceSheet.resx">
+      <DependentUpon>BalanceSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\BitWiseoutstanding.resx">
+      <DependentUpon>BitWiseoutstanding.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\CashBankBook.resx">
+      <DependentUpon>CashBankBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\CostcEntreLedger.resx">
+      <DependentUpon>CostcEntreLedger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\DailyBalance.resx">
+      <DependentUpon>DailyBalance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\DayBook.resx">
+      <DependentUpon>DayBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\PrintLedger.resx">
+      <DependentUpon>PrintLedger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\ProfitLossAccount.resx">
+      <DependentUpon>ProfitLossAccount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\ReportCriteria.resx">
+      <DependentUpon>ReportCriteria.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\TradingAccount.resx">
+      <DependentUpon>TradingAccount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\TrialBalance.resx">
+      <DependentUpon>TrialBalance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\ViewLedger.resx">
+      <DependentUpon>ViewLedger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\VoucherAnalysis.resx">
+      <DependentUpon>VoucherAnalysis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\AccountingReport\VoucherPrinting.resx">
+      <DependentUpon>VoucherPrinting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\BankPaymentAdd.resx">
+      <DependentUpon>BankPaymentAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\BankPaymentView.resx">
+      <DependentUpon>BankPaymentView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\BankReceiptAdd.resx">
+      <DependentUpon>BankReceiptAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\BankReceiptView.resx">
+      <DependentUpon>BankReceiptView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\CashPaymentAdd.resx">
+      <DependentUpon>CashPaymentAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\CashPaymentView.resx">
+      <DependentUpon>CashPaymentView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\CashRceiptVoucherAdd.resx">
+      <DependentUpon>CashRceiptVoucherAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\CashReceiptVoucherView.resx">
+      <DependentUpon>CashReceiptVoucherView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\ContraVoucherAdd.resx">
+      <DependentUpon>ContraVoucherAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\ContraVoucherView.resx">
+      <DependentUpon>ContraVoucherView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\Display\Ledgerdisplay.resx">
+      <DependentUpon>LedgerDisplay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\Display\TrialBalanceDetail.resx">
+      <DependentUpon>TrialBalanceDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\Display\TrialBalanceDisplay.resx">
+      <DependentUpon>TrialBalanceDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\Display\TrialSummary.resx">
+      <DependentUpon>TrialSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\JournalAdd.resx">
+      <DependentUpon>JournalAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountVoucher\JournalView.resx">
+      <DependentUpon>JournalView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExitForm.resx">
+      <DependentUpon>ExitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global\BaseClass.resx">
+      <DependentUpon>BaseClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global\Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\AccountGroupAdd.resx">
+      <DependentUpon>AccountGroupAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\AccountGroupSearch.resx">
+      <DependentUpon>AccountGroupSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\AccountGroupView.resx">
+      <DependentUpon>AccountGroupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\AccountView.resx">
+      <DependentUpon>AccountView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\AccountAdd.resx">
+      <DependentUpon>AccountAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\ContraVoucher.resx">
+      <DependentUpon>ContraVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\ContraVoucherView.resx">
+      <DependentUpon>ContraVoucherView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\ContraVoucherAdd.resx">
+      <DependentUpon>ContraVoucherAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\Department.resx">
+      <DependentUpon>Department.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\DeptView.resx">
+      <DependentUpon>DeptView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\Designation.resx">
+      <DependentUpon>Designation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\DesigView.resx">
+      <DependentUpon>DesigView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\IssueMasterView.resx">
+      <DependentUpon>IssueMasterView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\IssueMaster.resx">
+      <DependentUpon>IssueMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\Location.resx">
+      <DependentUpon>Location.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\LocationView.resx">
+      <DependentUpon>LocationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\PartyWiseItemAdd.resx">
+      <DependentUpon>PartyWiseItemAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\PartyWiseItemRateList.resx">
+      <DependentUpon>PartyWiseItemRateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\PartyWiseItemRateView.resx">
+      <DependentUpon>PartyWiseItemRateView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\PurchaseTypeSetupView.resx">
+      <DependentUpon>PurchaseTypeSetupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SaleOrderReceivingEntryAdd.resx">
+      <DependentUpon>SaleOrderReceivingEntryAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SaleOrderReceivingEntryView.resx">
+      <DependentUpon>SaleOrderReceivingEntryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SalePurcahseRegisterView.resx">
+      <DependentUpon>SalePurcahseRegisterView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SalePurchaseRegisterSetUpAdd.resx">
+      <DependentUpon>SalePurchaseRegisterSetUpAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SaleTypeView.resx">
+      <DependentUpon>SaleTypeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SoftwareRoleAdd.resx">
+      <DependentUpon>SoftwareRoleAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SoftwareRoleView.resx">
+      <DependentUpon>SoftwareRoleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\STFormSetup.resx">
+      <DependentUpon>STFormSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\STFormView.resx">
+      <DependentUpon>STFormView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FormNo.resx">
+      <DependentUpon>FormNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\ItemGroupAdd.resx">
+      <DependentUpon>ItemGroupAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\ItemGroupView.resx">
+      <DependentUpon>ItemGroupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\NarrationAdd.resx">
+      <DependentUpon>NarrationAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\NarrationView.resx">
+      <DependentUpon>NarrationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SaleTypeSetupAdd.resx">
+      <DependentUpon>SaleTypeSetupAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SaleTypeSetup.resx">
+      <DependentUpon>SaleTypeSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\CostCenter.resx">
+      <DependentUpon>CostCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\CostCenterView.resx">
+      <DependentUpon>CostCenterView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\DailyScheduleEntryAdd.resx">
+      <DependentUpon>DailyScheduleEntryAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\DailyScheduleEntryView.resx">
+      <DependentUpon>DailyScheduleEntryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\ItemRateSetupAdd.resx">
+      <DependentUpon>ItemRateSetupAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\ItemRateSetupView.resx">
+      <DependentUpon>ItemRateSetupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\ItemsView.resx">
+      <DependentUpon>ItemsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\ItemsAdd.resx">
+      <DependentUpon>ItemsAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\PendingSaleOrderReport.resx">
+      <DependentUpon>PendingSaleOrderReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\PriceRateView.resx">
+      <DependentUpon>PriceRateView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\PriceRate.resx">
+      <DependentUpon>PriceRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\PurchaseTypeSetup.resx">
+      <DependentUpon>PurchaseTypeSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\PurchaseTypeSetupAdd.resx">
+      <DependentUpon>PurchaseTypeSetupAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SaleOrderListing.resx">
+      <DependentUpon>SaleOrderListing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SaleOrderPendingReport%28Item wise%29.resx">
+      <DependentUpon>SaleOrderPendingReport%28Item wise%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SaleOrderPendingReport%28Party wise%29.resx">
+      <DependentUpon>SaleOrderPendingReport%28Party wise%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\SaleOrderSetup.resx">
+      <DependentUpon>SaleOrderSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\StateView.resx">
+      <DependentUpon>StateView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\StateAdd.resx">
+      <DependentUpon>StateAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\Study.resx">
+      <DependentUpon>Study.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\TariffAdd.resx">
+      <DependentUpon>TariffAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\TariffView.resx">
+      <DependentUpon>TariffView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\UMOAdd.resx">
+      <DependentUpon>UMOAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\UMOView.resx">
+      <DependentUpon>UMOView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\UserDetails.resx">
+      <DependentUpon>UserDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\UserView.resx">
+      <DependentUpon>UserView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\Voucher.resx" />
+    <EmbeddedResource Include="Masters\VoucherAdd.resx">
+      <DependentUpon>VoucherAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\VoucherSeriesSetup.resx">
+      <DependentUpon>VoucherSeriesSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\VoucherSeriesView.resx">
+      <DependentUpon>VoucherSeriesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\VoucherSeriesSetupAdd.resx">
+      <DependentUpon>VoucherSeriesSetupAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\VoucherSetup.resx">
+      <DependentUpon>VoucherSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\VoucherView.resx">
+      <DependentUpon>VoucherView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParentApp.resx">
+      <DependentUpon>MDIParentApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\BillWiseSaleReport.resx">
+      <DependentUpon>BillWiseSaleReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\DirectEntryAdd.resx">
+      <DependentUpon>DirectEntryAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\DirectEntryView.resx">
+      <DependentUpon>DirectEntryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\ItemMovementReport.resx">
+      <DependentUpon>ItemMovementReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\ItemWiseExciseDetail.resx">
+      <DependentUpon>ItemWiseExciseDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\ItemWisePartWisePurchaseReg.resx">
+      <DependentUpon>ItemWisePartWisePurchaseReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\ItemWisePartyWiseSaleRegister.resx">
+      <DependentUpon>ItemWisePartyWiseSaleRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\MonthlyDispatchReport.resx">
+      <DependentUpon>MonthlyDispatchReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\PackingDetail.resx">
+      <DependentUpon>PackingDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\PartyWiseItemWisePurcahseReg.resx">
+      <DependentUpon>PartyWiseItemWisePurcahseReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\PartyWiseItemWiseSaleRegister.resx">
+      <DependentUpon>PartyWiseItemWiseSaleRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\PartyWiseItemWiseToolCostDiffReport.resx">
+      <DependentUpon>PartyWiseItemWiseToolCostDiffReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\PartyWisePurchaseRegister.resx">
+      <DependentUpon>PartyWisePurchaseRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\PartyWiseSaleNonExcise.resx">
+      <DependentUpon>PartyWiseSaleNonExcise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\PartyWiseSalePurchaseEntry.resx">
+      <DependentUpon>PartyWiseSalePurchaseEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\PurcahseBillAdd.resx">
+      <DependentUpon>PurcahseBillAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\PurcahseBillView.resx">
+      <DependentUpon>PurcahseBillView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\PurchaseRegister.resx">
+      <DependentUpon>PurchaseRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\PurchaseRegister2.resx">
+      <DependentUpon>PurchaseRegister2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\PurchaseRegReturn.resx">
+      <DependentUpon>PurchaseRegReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\SaleCategoryWise1.resx">
+      <DependentUpon>SaleCategoryWise1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\SaleInvoiceEntry.resx">
+      <DependentUpon>SaleInvoiceEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\SalePurchaseView.resx">
+      <DependentUpon>SalePurchaseView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\SaleRegister%28New%29.resx">
+      <DependentUpon>SaleRegister%28New%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\SaleRegisterNew.resx">
+      <DependentUpon>SaleRegisterNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\SaleRegisterPartyWise.resx">
+      <DependentUpon>SaleRegisterPartyWise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\SaleRegisterSummary.resx">
+      <DependentUpon>SaleRegisterSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\SaleRegistry.resx">
+      <DependentUpon>SaleRegistry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\SaleRegistryItemWise.resx">
+      <DependentUpon>SaleRegistryItemWise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\SaleReportBank.resx">
+      <DependentUpon>SaleReportBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\SaleReturnRegister.resx">
+      <DependentUpon>SaleReturnRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\SalerRegisterCategoryWisecs.resx">
+      <DependentUpon>SalerRegisterCategoryWisecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\tariffWiseReport.resx">
+      <DependentUpon>tariffWiseReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\TDSReport.resx">
+      <DependentUpon>TDSReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\SalePurchase\TotalSaleSummary.resx">
+      <DependentUpon>TotalSaleSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\BacklogReportWeeklycs.resx">
+      <DependentUpon>BacklogReportWeeklycs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\Consumption.resx">
+      <DependentUpon>Consumption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\DailRating.resx">
+      <DependentUpon>DailRating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\dailySchedulReportNew.resx">
+      <DependentUpon>dailySchedulReportNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\DateWiseDispatchReport.resx">
+      <DependentUpon>DateWiseDispatchReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\DeliverySchduleReportDaily.resx">
+      <DependentUpon>DeliverySchduleReportDaily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\DeliveryScheduleBackLogreport.resx">
+      <DependentUpon>DeliveryScheduleBackLogreport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\DeliveryScheduleReport.resx">
+      <DependentUpon>DeliveryScheduleReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\DeliveryScheduleReportAll.resx">
+      <DependentUpon>DeliveryScheduleReportAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\MaterialRequirementReport.resx">
+      <DependentUpon>MaterialRequirementReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\MonthlyRating1.resx">
+      <DependentUpon>MonthlyRating1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\MonthWiseDispRpt.resx">
+      <DependentUpon>MonthWiseDispRpt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\MostTrade.resx">
+      <DependentUpon>MostTrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\Print.resx">
+      <DependentUpon>Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\RateFinance.resx">
+      <DependentUpon>RateFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\ScheduleReport\Supplier.resx">
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\VAT_Report\Form2A.resx">
+      <DependentUpon>Form2A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\VAT_Report\FromDVAT16.resx">
+      <DependentUpon>FromDVAT16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\VAT_Report\ST38PrintInwordOutword.resx">
+      <DependentUpon>ST38PrintInwordOutword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\VAT_Report\ST38PrintNew.resx">
+      <DependentUpon>ST38PrintNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\VAT_Report\STFormReportPurchase.resx">
+      <DependentUpon>STFormReportPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\VAT_Report\STFormReportSale.resx">
+      <DependentUpon>STFormReportSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\VAT_Report\VAtReport.resx">
+      <DependentUpon>VAtReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalePurchase\VAT_Report\VATSummary.resx">
+      <DependentUpon>VATSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\AccountReporting.resx">
+      <DependentUpon>AccountReporting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\BackUp.resx">
+      <DependentUpon>BackUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\CaptionSetting.resx">
+      <DependentUpon>CaptionSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\CompanyInfo.resx">
+      <DependentUpon>CompanyInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\CreateNextFinancialYear.resx">
+      <DependentUpon>CreateNextFinancialYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\DataChecking.resx">
+      <DependentUpon>DataChecking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\ExelDateToTelly.resx">
+      <DependentUpon>ExelDateToTelly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\ImportDateFormExcel.resx">
+      <DependentUpon>ImportDateFormExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\ImportOpeningBalanceFronPreviousYear.resx">
+      <DependentUpon>ImportOpeningBalanceFronPreviousYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\MergedAccount.resx">
+      <DependentUpon>MergedAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\MergeItem.resx">
+      <DependentUpon>MergeItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\PrintSetUp.resx">
+      <DependentUpon>PrintSetUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\ProblemSolution.resx">
+      <DependentUpon>ProblemSolution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\SystemConfigurationAccount.resx">
+      <DependentUpon>SystemConfigurationAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\UpdateOutStanding.resx">
+      <DependentUpon>UpdateOutStanding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\VoucherMaxItemEntrySetg.resx">
+      <DependentUpon>VoucherMaxItemEntrySetg.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\PurelifeErpClient\ERP.PurelifeErpClient.Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PurelifeErpClient\PurelifeErp.wsdl" />
+    <None Include="Service References\PurelifeErpClient\PurelifeErp.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PurelifeErpClient\PurelifeErp1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PurelifeErpClient\PurelifeErp2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PurelifeErpClient\PurelifeErp3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Common.dll" />
+    <Content Include="bin\Debug\ERP.vshost.exe" />
+    <Content Include="bin\Debug\VistaMenuControl.dll" />
+    <Content Include="favicon.ico" />
+    <Content Include="Images\about.bmp" />
+    <Content Include="Images\ellipse.bmp" />
+    <Content Include="Images\Ellipse.cur" />
+    <Content Include="Images\line.bmp" />
+    <Content Include="Images\Line.cur" />
+    <Content Include="Images\new.bmp" />
+    <Content Include="Images\open.bmp" />
+    <Content Include="Images\pencil.bmp" />
+    <Content Include="Images\Pencil.cur" />
+    <Content Include="Images\pointer.bmp" />
+    <Content Include="Images\PolyHandle.cur" />
+    <Content Include="Images\rectangle.bmp" />
+    <Content Include="Images\Rectangle.cur" />
+    <Content Include="Images\redo.bmp" />
+    <Content Include="Images\save.bmp" />
+    <Content Include="Images\undo.bmp" />
+    <None Include="Resources\shopping-bag.png" />
+    <None Include="Resources\Shopping.png" />
+    <None Include="Resources\shopping-basket.png" />
+    <None Include="Resources\basket-full.png" />
+    <None Include="Resources\Zoom in.png" />
+    <None Include="Resources\Home.png" />
+    <None Include="Resources\Business_People_01.png" />
+    <None Include="Resources\coins.png" />
+    <None Include="Resources\Card.png" />
+    <None Include="Resources\ca_funds.gif" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\Digital-Asset-Management.png" />
+    <None Include="Resources\dollar.png" />
+    <Content Include="Resources\Line.png" />
+    <None Include="Resources\mypc.png" />
+    <Content Include="Resources\Pencil.png" />
+    <Content Include="Resources\Rectange.png" />
+    <None Include="Service References\PurelifeErpClient\PurelifeErp4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PurelifeErpClient\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\PurelifeErpClient\configuration.svcinfo" />
+    <None Include="Service References\PurelifeErpClient\configuration91.svcinfo" />
+    <None Include="Service References\PurelifeErpClient\PurelifeErp.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADOX">
+      <Guid>{00000600-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\PurelifeErpClient\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{239e0c4f-ea66-4d6b-9154-7456a507f0a7}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

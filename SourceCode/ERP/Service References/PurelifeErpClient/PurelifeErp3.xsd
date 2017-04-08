@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/ERPDTO.Masters" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ERPDTO.Masters" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:5482/PurelifeErp.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ERPDTO" />
+  <xs:import schemaLocation="http://localhost:5482/PurelifeErp.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ItemGroupDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/ERPDTO" base="q1:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AutoAssemlyfromRGP" type="xs:boolean" />
+          <xs:element minOccurs="0" name="AutoMRN" type="xs:boolean" />
+          <xs:element minOccurs="0" name="AutomaticQC" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ItemGroupName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MakeAutoProductionEntry" type="xs:boolean" />
+          <xs:element minOccurs="0" name="PORequiredinMRN" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Prefix" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SalableItemGrp" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ScheduleNoRequiredinMRN" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ShowinWorkerOrder" type="xs:boolean" />
+          <xs:element minOccurs="0" name="UpperGroup" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ItemGroupDTO" nillable="true" type="tns:ItemGroupDTO" />
+  <xs:complexType name="DETGRNDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/ERPDTO" base="q2:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AcceptedIntoStock" type="xs:float" />
+          <xs:element minOccurs="0" name="DC" type="xs:float" />
+          <xs:element minOccurs="0" name="MaterialCheckingSlipNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MaterialDesc" type="xs:int" />
+          <xs:element minOccurs="0" name="Recieved" type="xs:float" />
+          <xs:element minOccurs="0" name="SNo" type="xs:int" />
+          <xs:element minOccurs="0" name="UnitCode" type="xs:int" />
+          <xs:element minOccurs="0" name="Value" type="xs:float" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DETGRNDTO" nillable="true" type="tns:DETGRNDTO" />
+  <xs:complexType name="AccountGroupDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="http://schemas.datacontract.org/2004/07/ERPDTO" base="q3:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AccountGroupName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BType" type="ser:char" />
+          <xs:element minOccurs="0" name="GType" type="xs:int" />
+          <xs:element minOccurs="0" name="PrimaryAccountGroup" type="xs:int" />
+          <xs:element minOccurs="0" name="PrintSummaryTrialBalType" type="xs:int" />
+          <xs:element minOccurs="0" name="RefrenceNo" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AccountGroupDTO" nillable="true" type="tns:AccountGroupDTO" />
+  <xs:complexType name="MSTIssueMasterDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/ERPDTO" base="q4:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="IssueTo" type="xs:int" />
+          <xs:element minOccurs="0" name="OrderNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Orderdate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MSTIssueMasterDTO" nillable="true" type="tns:MSTIssueMasterDTO" />
+  <xs:complexType name="UserDetailsDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="http://schemas.datacontract.org/2004/07/ERPDTO" base="q5:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DOB" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DOJ" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DOL" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Department" type="xs:int" />
+          <xs:element minOccurs="0" name="Designation" type="xs:int" />
+          <xs:element minOccurs="0" name="Gender" type="xs:int" />
+          <xs:element minOccurs="0" name="Location" type="xs:int" />
+          <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SoftwareRole" type="xs:int" />
+          <xs:element minOccurs="0" name="UserCode" type="xs:int" />
+          <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="UserDetailsDTO" nillable="true" type="tns:UserDetailsDTO" />
+  <xs:complexType name="DesignationDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q6="http://schemas.datacontract.org/2004/07/ERPDTO" base="q6:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Designation" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DesignationDTO" nillable="true" type="tns:DesignationDTO" />
+  <xs:complexType name="SoftwareRoleDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="http://schemas.datacontract.org/2004/07/ERPDTO" base="q7:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="SoftwareRole" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SoftwareRoleDTO" nillable="true" type="tns:SoftwareRoleDTO" />
+  <xs:complexType name="MSTGRNDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q8="http://schemas.datacontract.org/2004/07/ERPDTO" base="q8:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DCBillInvoiceNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DcBillInvoiceDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="GRNDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="GRNNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LLRRWayBillDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="LLRRWayBillNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MaterialManager" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PODate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PONo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PostedIntoStockBy" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Prepared" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="StoreIncharge" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SupplierName" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MSTGRNDTO" nillable="true" type="tns:MSTGRNDTO" />
+  <xs:complexType name="LocationDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q9="http://schemas.datacontract.org/2004/07/ERPDTO" base="q9:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="LocationDTO" nillable="true" type="tns:LocationDTO" />
+  <xs:complexType name="DeptDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q10="http://schemas.datacontract.org/2004/07/ERPDTO" base="q10:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Dept" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DeptDTO" nillable="true" type="tns:DeptDTO" />
+  <xs:complexType name="MSTDirectEntryDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q11="http://schemas.datacontract.org/2004/07/ERPDTO" base="q11:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BillDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="BillNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Entrydate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Narration" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PurchaseAcc" type="xs:int" />
+          <xs:element minOccurs="0" name="PurchaseCategy" type="xs:int" />
+          <xs:element minOccurs="0" name="PurchaseType" type="xs:int" />
+          <xs:element minOccurs="0" name="SerialBillNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Supplier" type="xs:int" />
+          <xs:element minOccurs="0" name="TotalAmount" type="xs:float" />
+          <xs:element minOccurs="0" name="Type" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MSTDirectEntryDTO" nillable="true" type="tns:MSTDirectEntryDTO" />
+  <xs:complexType name="DETDirectEntryDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q12="http://schemas.datacontract.org/2004/07/ERPDTO" base="q12:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="MaterialDesc" type="xs:int" />
+          <xs:element minOccurs="0" name="Qty" type="xs:float" />
+          <xs:element minOccurs="0" name="Rate" type="xs:float" />
+          <xs:element minOccurs="0" name="SNo" type="xs:int" />
+          <xs:element minOccurs="0" name="TotalAmount" type="xs:float" />
+          <xs:element minOccurs="0" name="UMOId" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DETDirectEntryDTO" nillable="true" type="tns:DETDirectEntryDTO" />
+  <xs:complexType name="DETIssueUserDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q13="http://schemas.datacontract.org/2004/07/ERPDTO" base="q13:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="MaterialDesc" type="xs:int" />
+          <xs:element minOccurs="0" name="Qty" type="xs:float" />
+          <xs:element minOccurs="0" name="SNo" type="xs:int" />
+          <xs:element minOccurs="0" name="UMOId" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DETIssueUserDTO" nillable="true" type="tns:DETIssueUserDTO" />
+  <xs:complexType name="UMODTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q14="http://schemas.datacontract.org/2004/07/ERPDTO" base="q14:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="UMODTO" nillable="true" type="tns:UMODTO" />
+  <xs:complexType name="DETPurchaseBillDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q15="http://schemas.datacontract.org/2004/07/ERPDTO" base="q15:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CVDAmount" type="xs:float" />
+          <xs:element minOccurs="0" name="DicsAmount" type="xs:float" />
+          <xs:element minOccurs="0" name="DiscPerc" type="xs:float" />
+          <xs:element minOccurs="0" name="ECess" type="xs:float" />
+          <xs:element minOccurs="0" name="ETADate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ExciseDuty" type="xs:float" />
+          <xs:element minOccurs="0" name="HECessAmount" type="xs:float" />
+          <xs:element minOccurs="0" name="HECessPerc" type="xs:float" />
+          <xs:element minOccurs="0" name="InvoiceDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="MaterialDesc" type="xs:int" />
+          <xs:element minOccurs="0" name="Qty" type="xs:float" />
+          <xs:element minOccurs="0" name="Rate" type="xs:float" />
+          <xs:element minOccurs="0" name="SNo" type="xs:int" />
+          <xs:element minOccurs="0" name="Specs" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Tariff" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TotalAmount" type="xs:float" />
+          <xs:element minOccurs="0" name="UMOId" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DETPurchaseBillDTO" nillable="true" type="tns:DETPurchaseBillDTO" />
+  <xs:complexType name="MSTPurchaseBillDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q16="http://schemas.datacontract.org/2004/07/ERPDTO" base="q16:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AddExcise" type="xs:boolean" />
+          <xs:element minOccurs="0" name="BillAmount" type="xs:float" />
+          <xs:element minOccurs="0" name="BillDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="BillNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Carrier" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Cess" type="xs:float" />
+          <xs:element minOccurs="0" name="Entrydate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ExciseDuty" type="xs:float" />
+          <xs:element minOccurs="0" name="ExciseNo" type="xs:float" />
+          <xs:element minOccurs="0" name="ExciseReg" type="xs:float" />
+          <xs:element minOccurs="0" name="Freightnsurance" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HECess" type="xs:float" />
+          <xs:element minOccurs="0" name="MakeIssueToProductionBill" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Narration" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PackingForwarding" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PurchaseAcc" type="xs:int" />
+          <xs:element minOccurs="0" name="PurchaseCategy" type="xs:int" />
+          <xs:element minOccurs="0" name="PurchaseType" type="xs:int" />
+          <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SaleTax" type="xs:float" />
+          <xs:element minOccurs="0" name="SerialBillNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Supplier" type="xs:int" />
+          <xs:element minOccurs="0" name="SurchargeTax" type="xs:float" />
+          <xs:element minOccurs="0" name="TotalAmount" type="xs:float" />
+          <xs:element minOccurs="0" name="Transport" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Type" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MSTPurchaseBillDTO" nillable="true" type="tns:MSTPurchaseBillDTO" />
+  <xs:complexType name="MSTSaleOrderReceivingEntryDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q17="http://schemas.datacontract.org/2004/07/ERPDTO" base="q17:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Active" type="xs:boolean" />
+          <xs:element minOccurs="0" name="OrderDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="OrderNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartyName" type="xs:int" />
+          <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Total" type="xs:float" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MSTSaleOrderReceivingEntryDTO" nillable="true" type="tns:MSTSaleOrderReceivingEntryDTO" />
+  <xs:complexType name="SaleOrderReceivingEntryDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q18="http://schemas.datacontract.org/2004/07/ERPDTO" base="q18:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Amount" type="xs:float" />
+          <xs:element minOccurs="0" name="ItemDescription" type="xs:int" />
+          <xs:element minOccurs="0" name="Qty" type="xs:float" />
+          <xs:element minOccurs="0" name="Rate" type="xs:float" />
+          <xs:element minOccurs="0" name="SNo" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SaleOrderReceivingEntryDTO" nillable="true" type="tns:SaleOrderReceivingEntryDTO" />
+  <xs:complexType name="PartyWiseItemRateDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q19="http://schemas.datacontract.org/2004/07/ERPDTO" base="q19:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AmendmentDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="AmendmentNo" type="xs:int" />
+          <xs:element minOccurs="0" name="ItemCode" type="xs:float" />
+          <xs:element minOccurs="0" name="ItemName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PODate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PONo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PackingRate" type="xs:float" />
+          <xs:element minOccurs="0" name="PartNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PartyName" type="xs:int" />
+          <xs:element minOccurs="0" name="ProcessName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Tax" type="xs:float" />
+          <xs:element minOccurs="0" name="ToolNarr" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ToolRate" type="xs:float" />
+          <xs:element minOccurs="0" name="ToolSupplyForQty" type="xs:float" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PartyWiseItemRateDTO" nillable="true" type="tns:PartyWiseItemRateDTO" />
+  <xs:complexType name="ItemDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q20="http://schemas.datacontract.org/2004/07/ERPDTO" base="q20:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Active" type="xs:boolean" />
+          <xs:element minOccurs="0" name="AliasItemCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AlternateUnit" type="xs:float" />
+          <xs:element minOccurs="0" name="BasicUnit" type="xs:float" />
+          <xs:element minOccurs="0" name="BinPackageQty" type="xs:float" />
+          <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ConversionFormule1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ConversionFormule2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CutWeight" type="xs:float" />
+          <xs:element minOccurs="0" name="DescriptionForInvoice" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExciseRG1Stock" type="xs:float" />
+          <xs:element minOccurs="0" name="ExciseRG23AStock" type="xs:float" />
+          <xs:element minOccurs="0" name="ExciseRG23CStock" type="xs:float" />
+          <xs:element minOccurs="0" name="ExciseRegister" type="xs:int" />
+          <xs:element minOccurs="0" name="ExportRate" type="xs:float" />
+          <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FreeQtyBin" type="xs:float" />
+          <xs:element minOccurs="0" name="GrossWeight" type="xs:float" />
+          <xs:element minOccurs="0" name="GroupName" type="xs:int" />
+          <xs:element minOccurs="0" name="ItemArea" type="xs:float" />
+          <xs:element minOccurs="0" name="ItemSpecCode" type="xs:int" />
+          <xs:element minOccurs="0" name="ItemType" type="xs:int" />
+          <xs:element minOccurs="0" name="LeadTime" type="xs:float" />
+          <xs:element minOccurs="0" name="Length" type="xs:float" />
+          <xs:element minOccurs="0" name="MRP" type="xs:float" />
+          <xs:element minOccurs="0" name="MRPRate" type="xs:float" />
+          <xs:element minOccurs="0" name="MakeMRNJwAuto" type="xs:boolean" />
+          <xs:element minOccurs="0" name="MaxQty" type="xs:float" />
+          <xs:element minOccurs="0" name="MinOrderQty" type="xs:float" />
+          <xs:element minOccurs="0" name="MinQuantity" type="xs:float" />
+          <xs:element minOccurs="0" name="NetWeight" type="xs:float" />
+          <xs:element minOccurs="0" name="NonExciseStock" type="xs:float" />
+          <xs:element minOccurs="0" name="Package" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PackageType" type="xs:int" />
+          <xs:element minOccurs="0" name="PlatingRate" type="xs:float" />
+          <xs:element minOccurs="0" name="PriceListName" type="xs:int" />
+          <xs:element minOccurs="0" name="PrintDescription" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ProcessName" type="xs:int" />
+          <xs:element minOccurs="0" name="PurchaseRate" type="xs:float" />
+          <xs:element minOccurs="0" name="RT12Code" type="xs:int" />
+          <xs:element minOccurs="0" name="RackNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RateFactor1" type="xs:float" />
+          <xs:element minOccurs="0" name="RateFactor2" type="xs:float" />
+          <xs:element minOccurs="0" name="RateFactor3" type="xs:float" />
+          <xs:element minOccurs="0" name="RateFactor4" type="xs:float" />
+          <xs:element minOccurs="0" name="RawMaterialUsed" type="xs:int" />
+          <xs:element minOccurs="0" name="ReOrderLevel" type="xs:float" />
+          <xs:element minOccurs="0" name="SaleRate" type="xs:float" />
+          <xs:element minOccurs="0" name="StockRate" type="xs:float" />
+          <xs:element minOccurs="0" name="TaxableItem" type="xs:boolean" />
+          <xs:element minOccurs="0" name="TotalStock" type="xs:float" />
+          <xs:element minOccurs="0" name="TraiffNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Value" type="xs:float" />
+          <xs:element minOccurs="0" name="Width" type="xs:float" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ItemDTO" nillable="true" type="tns:ItemDTO" />
+  <xs:complexType name="AccountDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q21="http://schemas.datacontract.org/2004/07/ERPDTO" base="q21:ERPDTOBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Account" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AccountType" type="xs:int" />
+          <xs:element minOccurs="0" name="Active" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AdjBillWise" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Balance" type="xs:int" />
+          <xs:element minOccurs="0" name="CSTNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CodeNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Collactorate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Commodity" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreditDays" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CustomerType" type="xs:int" />
+          <xs:element minOccurs="0" name="Destination" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Discount" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Division" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DrCr" type="xs:int" />
+          <xs:element minOccurs="0" name="ECCNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Fax" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GroupName" type="xs:int" />
+          <xs:element minOccurs="0" name="IntrestRate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LockAcc" type="xs:boolean" />
+          <xs:element minOccurs="0" name="MobileNo" type="xs:int" />
+          <xs:element minOccurs="0" name="ModeofTransport" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NatureofPay" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PLACodeNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PanNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PurchaseType" type="xs:int" />
+          <xs:element minOccurs="0" name="Range" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Registration" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="STNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SaleType" type="xs:int" />
+          <xs:element minOccurs="0" name="State" type="xs:int" />
+          <xs:element minOccurs="0" name="TDSCategory" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TDSRate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TypeOfSupplier" type="xs:int" />
+          <xs:element minOccurs="0" name="VenderCode" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AccountDTO" nillable="true" type="tns:AccountDTO" />
+</xs:schema>

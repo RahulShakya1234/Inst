@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a9cb622d-6c45-40c9-87de-83c93f9d68e9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5482/PurelifeErp.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PurelifeErp.xsd" MetadataType="Schema" ID="d2f034bc-d85f-426a-b110-f7d0ae741064" SourceId="1" SourceUrl="http://localhost:5482/PurelifeErp.svc?xsd=xsd1" />
+    <MetadataFile FileName="PurelifeErp.disco" MetadataType="Disco" ID="68c90115-d24e-4e10-bd55-84db8e8351d4" SourceId="1" SourceUrl="http://localhost:5482/PurelifeErp.svc?disco" />
+    <MetadataFile FileName="PurelifeErp1.xsd" MetadataType="Schema" ID="931b9749-2eb5-4dcb-9d91-27e3213305ab" SourceId="1" SourceUrl="http://localhost:5482/PurelifeErp.svc?xsd=xsd2" />
+    <MetadataFile FileName="PurelifeErp2.xsd" MetadataType="Schema" ID="9be5e40e-121d-442e-b175-b6a60ea44ee0" SourceId="1" SourceUrl="http://localhost:5482/PurelifeErp.svc?xsd=xsd0" />
+    <MetadataFile FileName="PurelifeErp3.xsd" MetadataType="Schema" ID="085246e9-925c-42d5-91ac-49334a036e4a" SourceId="1" SourceUrl="http://localhost:5482/PurelifeErp.svc?xsd=xsd3" />
+    <MetadataFile FileName="PurelifeErp.wsdl" MetadataType="Wsdl" ID="f2368c1e-73eb-40b6-9a48-50d8f98ee3d9" SourceId="1" SourceUrl="http://localhost:5482/PurelifeErp.svc?wsdl" />
+    <MetadataFile FileName="PurelifeErp4.xsd" MetadataType="Schema" ID="7e238925-14e4-4fb4-b46f-0cfce78534bb" SourceId="1" SourceUrl="http://localhost:5482/PurelifeErp.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

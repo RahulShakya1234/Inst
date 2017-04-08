@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Rahul Shakya\Desktop\ERPService1" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="ERPService" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="administrator" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="06/25/2014 14:56:04" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll" publishTime="04/16/2010 14:16:58" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.xml" publishTime="04/16/2010 14:11:48" />
+    <file relUrl="bin/ERPDTO.pdb" publishTime="06/25/2014 14:56:02" />
+    <file relUrl="bin/ERPDAL.dll" publishTime="06/25/2014 14:56:03" />
+    <file relUrl="bin/Common.pdb" publishTime="06/25/2014 14:41:19" />
+    <file relUrl="PurelifeErp.svc" publishTime="03/18/2014 16:55:06" />
+    <file relUrl="bin/Microsoft.Practices.Unity.pdb" publishTime="04/16/2010 13:42:32" />
+    <file relUrl="bin/Microsoft.Practices.ServiceLocation.pdb" publishTime="04/16/2010 13:42:32" />
+    <file relUrl="bin/ERPDAL.pdb" publishTime="06/25/2014 14:56:03" />
+    <file relUrl="bin/Microsoft.Practices.Unity.Interception.pdb" publishTime="04/16/2010 13:42:32" />
+    <file relUrl="bin/ERPDTO.dll" publishTime="06/25/2014 14:56:02" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Data.pdb" publishTime="04/16/2010 14:11:56" />
+    <file relUrl="bin/Microsoft.Practices.Unity.dll" publishTime="04/16/2010 13:42:32" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Data.xml" publishTime="04/16/2010 14:11:56" />
+    <file relUrl="bin/ERPBL.pdb" publishTime="06/25/2014 14:56:03" />
+    <file relUrl="bin/Microsoft.Practices.ServiceLocation.dll" publishTime="04/16/2010 14:16:58" />
+    <file relUrl="bin/Microsoft.Practices.Unity.Interception.dll" publishTime="04/16/2010 13:42:32" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll" publishTime="04/16/2010 14:16:58" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.pdb" publishTime="04/16/2010 14:11:48" />
+    <file relUrl="bin/Common.dll" publishTime="06/25/2014 14:41:19" />
+    <file relUrl="bin/ERPBL.dll" publishTime="06/25/2014 14:56:03" />
+    <file relUrl="bin/ERPService.pdb" publishTime="06/25/2014 14:56:03" />
+    <file relUrl="bin/ERPService.dll" publishTime="06/25/2014 14:56:03" />
+  </publishProfile>
+</publishData>

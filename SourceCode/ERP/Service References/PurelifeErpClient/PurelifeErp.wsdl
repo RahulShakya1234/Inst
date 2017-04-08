@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PurelifeErp" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:5482/PurelifeErp.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:5482/PurelifeErp.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:5482/PurelifeErp.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ERPDTO" />
+      <xsd:import schemaLocation="http://localhost:5482/PurelifeErp.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/ERPDTO.Masters" />
+      <xsd:import schemaLocation="http://localhost:5482/PurelifeErp.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPurelifeErp_Save_InputMessage">
+    <wsdl:part name="parameters" element="tns:Save" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_Save_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_DataListing_InputMessage">
+    <wsdl:part name="parameters" element="tns:DataListing" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_DataListing_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DataListingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_DataListingWithSearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:DataListingWithSearch" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_DataListingWithSearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DataListingWithSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_DETDataListing_InputMessage">
+    <wsdl:part name="parameters" element="tns:DETDataListing" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_DETDataListing_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DETDataListingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_MastersListing_InputMessage">
+    <wsdl:part name="parameters" element="tns:MastersListing" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_MastersListing_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MastersListingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_Delete_InputMessage">
+    <wsdl:part name="parameters" element="tns:Delete" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_Delete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_UserLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:UserLogin" />
+  </wsdl:message>
+  <wsdl:message name="IPurelifeErp_UserLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UserLoginResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPurelifeErp">
+    <wsdl:operation name="Save">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPurelifeErp/Save" message="tns:IPurelifeErp_Save_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPurelifeErp/SaveResponse" message="tns:IPurelifeErp_Save_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DataListing">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPurelifeErp/DataListing" message="tns:IPurelifeErp_DataListing_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPurelifeErp/DataListingResponse" message="tns:IPurelifeErp_DataListing_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DataListingWithSearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPurelifeErp/DataListingWithSearch" message="tns:IPurelifeErp_DataListingWithSearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPurelifeErp/DataListingWithSearchResponse" message="tns:IPurelifeErp_DataListingWithSearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DETDataListing">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPurelifeErp/DETDataListing" message="tns:IPurelifeErp_DETDataListing_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPurelifeErp/DETDataListingResponse" message="tns:IPurelifeErp_DETDataListing_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MastersListing">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPurelifeErp/MastersListing" message="tns:IPurelifeErp_MastersListing_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPurelifeErp/MastersListingResponse" message="tns:IPurelifeErp_MastersListing_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPurelifeErp/Delete" message="tns:IPurelifeErp_Delete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPurelifeErp/DeleteResponse" message="tns:IPurelifeErp_Delete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UserLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPurelifeErp/UserLogin" message="tns:IPurelifeErp_UserLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPurelifeErp/UserLoginResponse" message="tns:IPurelifeErp_UserLogin_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPurelifeErp" type="tns:IPurelifeErp">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Save">
+      <soap:operation soapAction="http://tempuri.org/IPurelifeErp/Save" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataListing">
+      <soap:operation soapAction="http://tempuri.org/IPurelifeErp/DataListing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataListingWithSearch">
+      <soap:operation soapAction="http://tempuri.org/IPurelifeErp/DataListingWithSearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DETDataListing">
+      <soap:operation soapAction="http://tempuri.org/IPurelifeErp/DETDataListing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MastersListing">
+      <soap:operation soapAction="http://tempuri.org/IPurelifeErp/MastersListing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete">
+      <soap:operation soapAction="http://tempuri.org/IPurelifeErp/Delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserLogin">
+      <soap:operation soapAction="http://tempuri.org/IPurelifeErp/UserLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PurelifeErp">
+    <wsdl:port name="BasicHttpBinding_IPurelifeErp" binding="tns:BasicHttpBinding_IPurelifeErp">
+      <soap:address location="http://localhost:5482/PurelifeErp.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

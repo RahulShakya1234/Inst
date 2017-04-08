@@ -1,0 +1,10 @@
+E:\Data\Projects-New\ERP-Code\SourceCode\Libraries\ERPDAL.dll
+E:\Data\Projects-New\ERP-Code\SourceCode\Libraries\ERPDAL.pdb
+E:\Data\Projects-New\ERP-Code\SourceCode\ERPDAL\obj\Debug\ERPDAL.csprojResolveAssemblyReference.cache
+E:\Data\Projects-New\ERP-Code\SourceCode\ERPDAL\obj\Debug\ERPDAL.dll
+E:\Data\Projects-New\ERP-Code\SourceCode\ERPDAL\obj\Debug\ERPDAL.pdb
+D:\Data\Projects-New\ERP-Code\SourceCode\Libraries\ERPDAL.dll
+D:\Data\Projects-New\ERP-Code\SourceCode\Libraries\ERPDAL.pdb
+D:\Data\Projects-New\ERP-Code\SourceCode\ERPDAL\obj\Debug\ERPDAL.csprojResolveAssemblyReference.cache
+D:\Data\Projects-New\ERP-Code\SourceCode\ERPDAL\obj\Debug\ERPDAL.dll
+D:\Data\Projects-New\ERP-Code\SourceCode\ERPDAL\obj\Debug\ERPDAL.pdb

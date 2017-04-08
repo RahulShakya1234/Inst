@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED82EF23-1AF9-4165-B94C-34C2445B978E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ERPDTO</RootNamespace>
+    <AssemblyName>ERPDTO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Libraries\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Masters\DETGRNDTO.cs" />
+    <Compile Include="Masters\DETIssueUserDTO.cs" />
+    <Compile Include="Masters\MSTGRNDTO.cs" />
+    <Compile Include="Masters\MSTIssueMasterDTO.cs" />
+    <Compile Include="Masters\DeptDTO.cs" />
+    <Compile Include="Masters\DesignationDTO.cs" />
+    <Compile Include="Masters\DETDirectEntryDTO.cs" />
+    <Compile Include="Masters\DETPurchaseBillDTO.cs" />
+    <Compile Include="Masters\LocationDTO.cs" />
+    <Compile Include="Masters\MSTDirectEntryDTO.cs" />
+    <Compile Include="Masters\MSTPurchaseBillDTO.cs" />
+    <Compile Include="Masters\PartyWiseItemRateDTO.cs" />
+    <Compile Include="Masters\SaleOrderReceivingEntryDTO.cs" />
+    <Compile Include="Masters\MSTSaleOrderReceivingEntryDTO.cs" />
+    <Compile Include="Masters\SaleOrderReceivingEntryDTOMst.cs" />
+    <Compile Include="Masters\SoftwareRole.cs" />
+    <Compile Include="Masters\UMODTO.cs" />
+    <Compile Include="Masters\UserDetailsDTO.cs" />
+    <Compile Include="Search.cs" />
+    <Compile Include="Enum.cs" />
+    <Compile Include="ERPDTOBase.cs" />
+    <Compile Include="Masters\AccountDTO.cs" />
+    <Compile Include="Masters\AccountGroupDTO.cs" />
+    <Compile Include="Masters\ItemDTO.cs" />
+    <Compile Include="Masters\ItemGroupDTO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{239E0C4F-EA66-4D6B-9154-7456A507F0A7}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

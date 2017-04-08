@@ -1,0 +1,46 @@
+C:\Users\Administrator\Desktop\New folder (3)\ERPSolution\Common\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\New folder (3)\ERPSolution\Common\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\New folder (3)\ERPSolution\Common\Common\bin\Debug\DataAccesLayer.dll
+C:\Users\Administrator\Desktop\New folder (3)\ERPSolution\Common\Common\bin\Debug\DataAccesLayer.pdb
+C:\Users\Administrator\Desktop\New folder (3)\ERPSolution\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder (3)\ERPSolution\Common\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\New folder (3)\ERPSolution\Common\Common\obj\Debug\Common.pdb
+C:\Users\Administrator\Desktop\ERPSolution\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ERPSolution\Common\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\ERPSolution\Common\Common\obj\Debug\Common.pdb
+C:\Users\Administrator\Desktop\ERPSolution\Common\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\ERPSolution\Common\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\ERPSolution\Common\Common\bin\Debug\DataAccesLayer.dll
+C:\Users\Administrator\Desktop\ERPSolution\Common\Common\bin\Debug\DataAccesLayer.pdb
+C:\Users\Administrator\Desktop\ERPSolution-CVN\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ERPSolution-CVN\Common\obj\Debug\Common.pdb
+C:\Users\Administrator\Desktop\ERPSolution-CVN\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\ERPSolution-CVN\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\ERPSolution-CVN\Common\bin\Debug\DataAccesLayer.dll
+C:\Users\Administrator\Desktop\ERPSolution-CVN\Common\bin\Debug\DataAccesLayer.pdb
+C:\Users\Administrator\Desktop\ERPSolution-CVN\Common\obj\Debug\Common.dll
+F:\Project\ERP\Common\bin\Debug\Common.dll
+F:\Project\ERP\Common\bin\Debug\Common.pdb
+F:\Project\ERP\Common\bin\Debug\DataAccesLayer.dll
+F:\Project\ERP\Common\bin\Debug\DataAccesLayer.pdb
+F:\Project\ERP\Common\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\ERP\Common\obj\Debug\Common.dll
+F:\Project\ERP\Common\obj\Debug\Common.pdb
+E:\Data\Projects-New\ERP-Code\Common\bin\Debug\Common.dll
+E:\Data\Projects-New\ERP-Code\Common\bin\Debug\Common.pdb
+E:\Data\Projects-New\ERP-Code\Common\bin\Debug\DataAccesLayer.dll
+E:\Data\Projects-New\ERP-Code\Common\bin\Debug\DataAccesLayer.pdb
+E:\Data\Projects-New\ERP-Code\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\Data\Projects-New\ERP-Code\Common\obj\Debug\Common.dll
+E:\Data\Projects-New\ERP-Code\Common\obj\Debug\Common.pdb
+E:\Data\Projects-New\ERP-Code\SourceCode\Common\bin\Debug\Common.dll
+E:\Data\Projects-New\ERP-Code\SourceCode\Common\bin\Debug\Common.pdb
+E:\Data\Projects-New\ERP-Code\SourceCode\Libraries\Common.dll
+E:\Data\Projects-New\ERP-Code\SourceCode\Libraries\Common.pdb
+E:\Data\Projects-New\ERP-Code\SourceCode\Common\obj\Debug\Common.dll
+E:\Data\Projects-New\ERP-Code\SourceCode\Common\obj\Debug\Common.pdb
+D:\Data\Projects-New\ERP-Code\SourceCode\Libraries\Common.dll
+D:\Data\Projects-New\ERP-Code\SourceCode\Libraries\Common.pdb
+D:\Data\Projects-New\ERP-Code\SourceCode\Common\obj\Debug\Common.dll
+D:\Data\Projects-New\ERP-Code\SourceCode\Common\obj\Debug\Common.pdb
+D:\Data\Projects-New\ERP-Code\SourceCode\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

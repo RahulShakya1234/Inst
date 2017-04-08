@@ -1,0 +1,4 @@
+E:\Data\Projects-New\ERP-Code\ERPService\ERPService\ERPDO\bin\Debug\ERPDO.dll
+E:\Data\Projects-New\ERP-Code\ERPService\ERPService\ERPDO\bin\Debug\ERPDO.pdb
+E:\Data\Projects-New\ERP-Code\ERPService\ERPService\ERPDO\obj\Debug\ERPDO.dll
+E:\Data\Projects-New\ERP-Code\ERPService\ERPService\ERPDO\obj\Debug\ERPDO.pdb
